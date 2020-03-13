@@ -10,7 +10,7 @@ When there's a collision the hash will resize and rehash.
 It only accepts strings as keys
 """
 
-from hash import Hash
+from .hash import Hash
 
 
 class HashEntry:

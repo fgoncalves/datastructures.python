@@ -1,11 +1,11 @@
-"""
-Simple hash is a fixed size hash that only accepts integers as keys
-"""
-
-from hash import Hash
+from .hash import Hash
 
 
 class SimpleHash(Hash):
+    """
+    Simple hash is a fixed size hash that only accepts integers as keys
+    """
+
     def __init__(self, capacity=10):
         Hash.__init__(self, capacity)
 
